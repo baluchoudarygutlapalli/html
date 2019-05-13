@@ -1,0 +1,9 @@
+.head1{color:red;font-style:italic;}
+.p2{color:green;font-style:oblique;}
+.p3{color:black;font-size:40px;}
+.p1{color:grey;font-size:1.875em; /*30px/16=1.875em*/}
+.p4{color:yellow;font-weight:bold;}
+.p5{color:red;font-weight:normal;}
+.div1{color:green;font-size:10vw;}
+.div2{color:pink;font-variant:small-caps;}
+.div3{color:purple;font-style:italic;}

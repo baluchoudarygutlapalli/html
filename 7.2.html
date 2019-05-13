@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Form Methods</title> 
+</head>
+<body> 
+	<form>
+	<table style ="background-color:skyblue"; border = "1"> 
+	<p>
+	<tr>
+	    <th>EmployeeName</th>
+       	    <th><input type = "text" align = left name = "Name" size = "20" readonly value = "" tabindex = "2" maxlength = "30"><br></th>
+        </tr>
+	<tr>
+	    <th>EmployeeCode</th>
+       	    <th><input type = "text" name = "Code" size = "7" readonly value = ""<br></th>
+        </tr>
+	<br>
+	<tr>
+	    <th>EmployeeCode</th><br>
+	    <th><input type = "radio" name = "s-grp" value = "Admin">Admin<br>
+		<input type = "radio" name = "s-grp" value = "HR" checked>HR<br>
+		<input type = "radio" name = "s-grp" value = "Technical">Technical<br>
+		<input type = "radio" name = "s-grp" value = "Accounts">Accounts
+	    </th>
+	</tr>
+	<br>
+	<tr>
+	    <th>Date of Joining</th>
+	    <th>dd<select name = "pref">
+		  <option value = "00">00</option>
+		  <option value = "01">01</option>
+		  <option value = "02">02</option>
+		  <option value = "03">03</option>
+	          </select> 
+		mm<select name = "pref">
+		  <option value = "00">00</option>
+		  <option value = "01">01</option>
+		  <option value = "02">02</option>
+		  <option value = "03">03</option>
+	          </select>
+		Year<select name = "pref">
+		  <option value = "0000">0000</option>
+		  <option value = "2001">2001</option>
+		  <option value = "2002">2002</option>
+		  <option value = "2003">2003</option>
+	          </select>  
+		Year
+		</th>
+		</tr>
+	<tr>
+	    <th>Address:</th>
+	   <th> <textarea name ="addr" rows = "5" cols ="20" tabindex = "0" accesskey = "A">Enter your Address</textarea>
+	    </th><br>
+        </tr>
+ 	<tr>
+	    <th>Training Program Attended</th>
+	    <th><input type="checkbox" name = "s-html/dhml">html/dhtml
+		<br><input type="checkbox" name = "s-Java">Java
+		<br><input type="checkbox" name = "s-Client">Client/Server
+		<br><input type="checkbox" name = "s-.Net">.Net
+	    <br></th>
+	</tr>
+ 	<tr>
+	    <th>Training Program need to attend</th>
+	    <th><select>
+ 		  <option value="JS">JavaScript</option>
+ 		  <option value="Python">Python</option>
+  	 	  <option value="C#">C#</option>
+		</select>
+	    </th>
+	</tr>
+	<tr>
+	    <th>Send the information at</th>
+	    <th><a href= "mailto:empinfo@capgemini.com">empinfo@capgemini.com</a>
+	    </th>
+	</tr>
+	</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Form Methods</title> 
+</head>
+<body> 
+	<form>
+	<table align = "center" style ="background-color:cyan"; border = "1"> 
+	<p>
+	<tr>
+	    <th align = left>Name: <sup style=color:red> * </th>
+       	    <th align = left ><input type = "text" name = "Name" size = "20" readonly value = "" tabindex = "2" maxlength = "30"><br></th>
+        </tr>
+	<tr>
+	    <th align = left>Password: <sup style=color:red> * </th>
+       	    <th align = left><input type = "text" name = "Code" size = "20" <br></th>
+	    <th><input type = "hidden" name = "coname" value = "pcs"></th>
+        </tr>
+	<tr>
+	    <th align = left>Phone number: <sup style=color:red> * </th>
+       	    <th align = left><input type = "text" name = "Code" maxlength = "20" readonly value = ""<br></th>
+        </tr>
+	<br>
+	<tr>
+	    <th align = left>Gender: <sup style=color:red> *</th><br>
+	    <th align = left><input type = "radio" name = "s-grp"  value = "Male">Male
+		<input type = "radio" name = "s-grp"  value = "Female">Female<br>
+	    </th>
+	</tr>
+	<tr>
+	    <th align = left>Date of Birth: <sup style=color:red> * </th>
+       	    <th align = left><input type = "text" name = "pref" size = "20" value = "mm/dd/yyyy"<br></th>
+        </tr>
+	<tr>
+	    <th align = left>Email: <sup style=color:red> * </th>
+       	    <th align = left><input type = "text" size = "20"<br></th>
+        </tr>
+	<br>
+	<tr>
+	    <th align = left>Highest Qualification: <sup style=color:red> *</th>
+	    <th align = left><select>
+		  <option value ="Select highest Qualification">Select highest Qualification</option> 
+ 		  <option value="B.Tech">B.Tech</option>
+ 		  <option value="M.Tech">M.Tech</option>
+  	 	  <option value="MBA">MBA</option>
+		  <option value="MCA">MCA</option>
+		  <option value="MSo">MSo</option>
+		  <option value="MA">MA</option>
+		  <option value="BSC">BSC</option>
+		</select>
+	    </th>
+	</tr>
+ 	<tr>
+	    <th align = left>Courses Interested in: <sup style=color:red> *</th>
+	    <th><input type="checkbox" name = "s-html">html
+		<input type="checkbox" name = "s-Java">Java
+		<input type="checkbox" name = "s-HTML5">HTML5
+		<input type="checkbox" name = "s-CSS3">CSS3
+		<input type="checkbox" name = "s-Angular JS">Angular JS
+	    <br></th>
+	</tr>
+ 	<tr>
+	    <th align = left><for = "comments">Comments:(Mention External Certifications if any)</th>
+	    <th> <textarea name = "addr" rows = "5" cols ="50" tabindex ="0" accesskey ="A"></textarea></th>
+       </tr>
+	<br>
+	<tr>
+	<th align="left"><for="Upload">Upload Degree/External Certificates:<sup style=color:red> *</th>	
+	<th align = "left"><input type="file" name="photo"></th>
+	</tr>
+	<tr>
+	<th> </th>
+	<th align="left">
+	<button type="submit" name ="submit" value = "submit">Submit Information</button>
+	<button type="submit" name ="clear" value = "Clear">Clear</button>
+	</tr>
+	</table>
+</form>
+</body>
+</html>
